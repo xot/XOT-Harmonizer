@@ -10,8 +10,7 @@ Released under the [MIT](https://opensource.org/licenses/MIT) license.
 
 ![Screenshot](Screenshot.png "Screenshot")
 
-XOT-Harmonizer derives four stereo voices from its stereo input, pitch-shifted in real time based on the (at most four) notes played on the virtual keyboard. 
-Middle C (C-3) is the ground tone; best results are achieved using notes within an octave of this ground tone. 
+XOT-Harmonizer derives four stereo voices from its stereo input, pitch-shifted in almost real time based on the (at most four) notes played on the virtual keyboard. Middle C (C-3) is the ground tone; best results are achieved using notes within an octave of this ground tone. The delay between the original input signal and the pitch shifted output signal is 45 ms. (at sampling rate of 44.1 kHz due to a buffer size of 2048).
 
 The original stereo input (i.e. the ground tone) is provided unchanged on the stereo output of the Harmonizer effect. The four voices are sent (in lowest to highest pitch order) on the following additional effect outputs
 
