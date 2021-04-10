@@ -29,7 +29,7 @@ The harmonizer can also be MIDI remote controlled. To do so, place a MAX MIDI Se
 
 ## Presets
 
-Ten presets can be stored and retrieved, and saved to an external file. The preset states are saved with the Abelton Live set containing this device.
+Ten presets can be stored and retrieved, and saved to an external file. The preset states are saved with the Abelton Live set containing this device. The first preset is automatically loaded when opening the device.
 
 ## Ableton Live template
 
